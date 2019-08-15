@@ -1372,7 +1372,7 @@ moe .color-dark .left-side ul li a:hover {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 80px 0;
+  padding: 0px 0;
 }
 .works .titles {
   display: block;
