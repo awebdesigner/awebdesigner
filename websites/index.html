@@ -59,16 +59,16 @@ Important is: .../redirect.php?theme=THEMENAME
 
         },
         {
-            "websiteName":"newsit",
-            "websiteLink":"https://newsit.gr"
+            "websiteName":"test",
+            "websiteLink":"theme01/index.html"
         },
         {
             "websiteName":"gmail",
             "websiteLink":"https://gmail.com"
         },
         {
-            "websiteName":"weeblio",
-            "websiteLink":"http://weeblio.com"
+            "websiteName":"newsit",
+            "websiteLink":"https://newsit.gr"
         }
     
   ];
@@ -85,7 +85,7 @@ Important is: .../redirect.php?theme=THEMENAME
         
 
       $(document).ready(function(){
-            $("a").click(function(e){
+            $(".button_a a").click(function(e){
                 e.preventDefault();
                 $("#iframe").attr("src", $(this).attr("href"));
             })
@@ -120,8 +120,7 @@ Important is: .../redirect.php?theme=THEMENAME
                     </li>	 -->
                 </ul>
                 </ul>
-				 <!-- 
-                <div class="responsive">
+             <!--   <div class="responsive">
                     <a href="#" class="desktop active" title="View Desktop Version"></a> 
                     <a href="#" class="tabletlandscape" title="View Tablet Landscape (1024x768)"></a> 
                     <a href="#" class="tabletportrait" title="View Tablet Portrait (768x1024)"></a> 
