@@ -427,7 +427,16 @@ img.preview {
    	display: none !important;
 	}     
 }
+.purchase:nth-child(1) > a:nth-child(1) {
+ background-color: rgb(54, 54, 54);
+ background-image: url("https://awebdesigner.github.io/websites/bar/assets/css/img/pat-bg.png");
+ background-blend-mode: normal;
+ box-shadow: none;
+}
 
+.overlay {
+ text-align: left;
+}
 
 /* ------------------------------------------------------------- *
  *  Hiding classes
@@ -461,3 +470,5 @@ img.preview {
 @media (min-width: 480px) {
 	.hide-to-xs { display: none !important; }
 }
+
+
