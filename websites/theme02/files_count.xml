@@ -2,9 +2,9 @@
 <pagescount>
 	<html_total>10</html_total>
 	<html_done>1</html_done>
-	<img>240</img>
-	<js>3</js>
-	<css>1</css>
+	<img>85</img>
+	<js>13</js>
+	<css>4</css>
 	<pdf/>
 	<doc/>
 	<xls/>
@@ -16,18 +16,18 @@
 	<xml/>
 	<json/>
 	<txt/>
-	<fonts>57</fonts>
+	<fonts>38</fonts>
 	<scraping_reload>1</scraping_reload>
 	<is_pretty_url>false</is_pretty_url>
 	<is_ebn>false</is_ebn>
-	<theme_name>195894</theme_name>
-	<server_url_front_page>https://www6.waybackmachinedownloader.com/wdo/files/demo/demo3.drfuri.com_filisgeorg_gmail.com_4cexqay3kf4/</server_url_front_page>
-	<no_www_url>demo3.drfuri.com</no_www_url>
+	<theme_name>195915</theme_name>
+	<server_url_front_page>https://www6.waybackmachinedownloader.com/wdo/files/demo/sok.nanoagency.co_filisgeorg_gmail.com_5dshj0qze6k/</server_url_front_page>
+	<no_www_url>sok.nanoagency.co</no_www_url>
 	<hosted_domain/>
-	<original_archive_url>http://demo3.drfuri.com/supro/</original_archive_url>
-	<final_archive_url>http://demo3.drfuri.com/supro/</final_archive_url>
+	<original_archive_url>http://sok.nanoagency.co/home-basic/</original_archive_url>
+	<final_archive_url>http://sok.nanoagency.co/home-basic/</final_archive_url>
 	<front_page_code_date/>
 	<total_urls_from_api/>
 	<search_url_added>false</search_url_added>
-	<total_size>14464</total_size>
+	<total_size>10656</total_size>
 </pagescount>
