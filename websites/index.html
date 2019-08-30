@@ -10,7 +10,7 @@ Important is: .../redirect.php?theme=THEMENAME
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta charset="utf-8">
-<title>Web design | Samples</title>
+<title>Themetorium - Premium Themes | Item: Sepia</title>
 <!-- Mobile Specific -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <!-- CSS Style -->
@@ -85,7 +85,6 @@ Important is: .../redirect.php?theme=THEMENAME
             "websiteLink":"theme05/index.html"
 
         }
-		
     
   ];
 
@@ -105,6 +104,8 @@ Important is: .../redirect.php?theme=THEMENAME
                 e.preventDefault();
                 $("#iframe").attr("src", $(this).attr("href"));
             })
+       //     $("#container").children().bind('click', function(){ return false; });
+            $("#container").off("click");
         });
 
 
@@ -136,13 +137,13 @@ Important is: .../redirect.php?theme=THEMENAME
                     </li>	 -->
                 </ul>
                 </ul>
-             <!--   <div class="responsive">
+                <div class="responsive">
                     <a href="#" class="desktop active" title="View Desktop Version"></a> 
                     <a href="#" class="tabletlandscape" title="View Tablet Landscape (1024x768)"></a> 
                     <a href="#" class="tabletportrait" title="View Tablet Portrait (768x1024)"></a> 
                     <a href="#" class="mobilelandscape" title="View Mobile Landscape (480x320)"></a>
                     <a href="#" class="mobileportrait" title="View Mobile Portrait (320x480)"></a>
-                </div> -->
+                </div> 
 
                 <ul class="links">
                     <li class="purchase" rel="https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium">
@@ -154,28 +155,16 @@ Important is: .../redirect.php?theme=THEMENAME
                 </ul>
         </div>
     </div>
-
-<style type="text/css">
-  
-.overlay {
-    background-color: rgba(0, 0, 0, 0);
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 98%;
-}
-</style>
-
-
  
-  <div class="overlay"></div> 
-    <iframe id="iframe" name="iframe" src="theme00/www.atherenergy.com/index.html" frameborder="1" width="100%"></iframe>
-   
+  
+  <div id="container"> 
+    <iframe id="iframe" class="update" name="iframe" src="https://car.gr" frameborder="1" width="100%" height="auto" scrolling="yes"></iframe>
+   </div>
 <!--  -->
     <!-- Place this tag after the last +1 button tag. -->
     <script type="text/javascript">
+
+
 
       (function() {
       	$("button").click(function(){
