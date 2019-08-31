@@ -1,1 +1,0 @@
-a:1:{s:10:"index.html";a:3:{i:0;s:31:"assets/img/apple-touch-icon.png";i:1;s:37:"assets/img/apple-touch-icon-72x72.png";i:2;s:39:"assets/img/apple-touch-icon-114x114.png";}}
