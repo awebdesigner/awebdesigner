@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-.atherenergy.com	TRUE	/	FALSE	1999999999	ather.sid	s%3AYbYNRhgvqhKmWRpKTNuyjieoGhMDjATo.ZhgJRYurEefcWnX7aFwWviZuZMbLS0b3bSw6tFnCCKM
-.atherenergy.com	TRUE	/	FALSE	1999999999	__cfduid	defff696ef7da4f11e19a093b3f7d321b1566860264
-.cloudflare.com	TRUE	/	FALSE	1999999999	__cfduid	de8b25420cc12cb96103e92f7983ea4351566860331
-
