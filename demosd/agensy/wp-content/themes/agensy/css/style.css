@@ -390,7 +390,7 @@ moe .color-dark .left-side ul li a:hover {
   animation: fadeInUp ease 0.6s;
 }
 .preloader .inner .logo img {
-  height: 50px;
+  height: 200px;
 }
 .preloader .inner .percentage {
   width: 100%;
