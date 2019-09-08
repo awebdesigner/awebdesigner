@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: normal;
+}
+ 
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+/* basic css end */
+
+/* main css start */
+
+/* header part start */
+.s-link span {
+  vertical-align: middle;
+  font-size: .8rem;
+  padding-left: 20px;
+  color: #364051;
+  cursor: pointer;
+}
+
+.s-link i {
+  vertical-align: middle;
+  font-size: 30px;
+  color: #364051;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.s-link i.facebook {
+  color: #3b5998;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.s-link i.instagram {
+  color: #3f729b;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: .8rem;
+}
+/* header part end */
+
+
+/* slider part start */
+.slide-item {
+  min-height: 80vh;
+  width: 100%;
+  padding: 80px 0;
+  opacity: .15;
+  transform:scale(.9);
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  transition: all 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+}
+
+.slide-item img {
+  max-width: 100%;
+  max-height: 60vh !important;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.slide-item.slick-active.slick-center {
+  opacity: 1;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  z-index: 9999;
+
+}
+
+.img-details {
+  position: absolute;
+  text-align: right;
+  top: 50%;
+  left: -150px;
+  opacity: 0;
+}
+
+.slide-item.slick-center .img-details {
+  opacity: 1;
+}
+
+.img-details h3 {
+  font-size: 25px;
+  font-weight: 800;
+  color: #364051
+}
+
+.img-details p {
+  font-size: 25px;
+  font-weight: 400;
+  color: #364051;
+}
+
+.img-details span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #364051;
+}
+/* slider part end */
+
+/* copyright part start */
+.copyright small {
+  padding: 0px 0 20px 0;
+  color: #364051;
+  font-weight: 700;
+  display: block;
+  margin: auto;
+}
+/* copyright part end */
