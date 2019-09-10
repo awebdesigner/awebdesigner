@@ -8,13 +8,13 @@
 ::after, ::before {
   box-sizing: border-box;
 }
- 
+  
 h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: normal;
 }
- 
+  
 ul, li {
   list-style: none;
 }
@@ -26,6 +26,8 @@ a, a:hover {
 body {
   font-family: 'Open Sans', sans-serif;
   position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
 /* basic css end */
@@ -79,6 +81,8 @@ body {
   transition: all 0.3s linear;
   -webkit-transition: 0.3s linear;
   -moz-transition: 0.3s linear;
+  display: grid !important;
+  place-items: center center !important;
 }
 
 .slide-item img {
@@ -88,12 +92,13 @@ body {
   padding: 20px 0;
 }
 
+
 .slide-item.slick-active.slick-center {
   opacity: 1;
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
-  z-index: 9999;
+  z-index: 99999999 !important;
 
 }
 
@@ -137,3 +142,9 @@ body {
   margin: auto;
 }
 /* copyright part end */
+
+
+/* update code */
+/* .slide-item.slick-slide.slick-current.slick-active.slick-center {
+  padding: 0px 100px 0px 0 !important;
+} */

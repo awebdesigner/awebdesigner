@@ -15,7 +15,7 @@
 .navbar-toggler-icon {
   width: 1em;
 }
-  
+   
 }
 
 /* Small devices (landscape phones upto 767px) */
@@ -41,17 +41,16 @@
     text-align: center;
     padding: 20px 0;
   }
-
  
  }
 
 /* Large devices (desktops and laptop) */
-@media (max-width: 1199px) {
-
+@media (min-width: 992px) {
+  
  }
 
 /* Extra large devices (large desktops, 1300px and up) */
-@media (min-width: 992px) and (max-width: 1366px) {
+@media (min-width: 992px) and (max-width: 1370px) {
  
 
   .slide-item {
@@ -83,4 +82,7 @@
   }
 
   
+
+  
  }
+

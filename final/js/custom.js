@@ -3,22 +3,24 @@ const slider = $(".full-slide");
 slider
   .slick({
     centerMode: true,
-  centerPadding: '0',
-  slidesToShow: 3,
-  arrows: false,
-  dots: false,
-  responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        slidesToShow: 1
-      }
-    },
-  ]
+    centerPadding: '0',
+    slidesToShow: 3,
+    arrows: false,
+    dots: false,
+    // infinite: false,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '0',
+          slidesToShow: 1
+        }
+      },
+    ]
 });
-
+ 
 //slider scroll
 slider.on('wheel', (function(e) {
 
