@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
   margin-bottom: 0px;
   line-height: normal;
 }
-  
+   
 ul, li {
   list-style: none;
 }
@@ -66,6 +66,36 @@ body {
 .navbar-light .navbar-nav .nav-link {
   font-size: .8rem;
 }
+
+.nav-link,
+.navbar span {
+  position: relative;
+}
+
+.nav-link::before,
+.navbar span::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 1px;
+  background: #364051;
+  top: 21px;
+  left: 20;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+}
+
+.nav-link::before {
+  top: 30px
+}
+
+.nav-link:hover::before,
+.navbar span:hover::before {
+  width: 80%;
+}
 /* header part end */
 
 
@@ -81,6 +111,7 @@ body {
   transition: all 0.3s linear;
   -webkit-transition: 0.3s linear;
   -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
   display: grid !important;
   place-items: center center !important;
 }
@@ -98,7 +129,8 @@ body {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
-  z-index: 99999999 !important;
+  position: relative;
+  z-index: 9999 !important;
 
 }
 
@@ -130,7 +162,42 @@ body {
   font-size: 14px;
   font-weight: 400;
   color: #364051;
+  position: relative;
+  z-index: 999999;
+  cursor: pointer;
 }
+
+.img-details span::after {
+  content: "";
+  width: 0;
+  height: 1px;
+  background: #364051;
+  position: absolute;
+  top: 18px;
+  left: 0;
+  cursor: pointer;
+  transition: all o.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+}
+
+.img-details span:hover::after {
+  width: 100%;
+}
+
+.img-details span::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background: #364051;
+  position: absolute;
+  top: 12px;
+  left: -50px;
+  z-index: -1;
+  cursor: pointer;
+}
+
 /* slider part end */
 
 /* copyright part start */
@@ -143,8 +210,3 @@ body {
 }
 /* copyright part end */
 
-
-/* update code */
-/* .slide-item.slick-slide.slick-current.slick-active.slick-center {
-  padding: 0px 100px 0px 0 !important;
-} */
