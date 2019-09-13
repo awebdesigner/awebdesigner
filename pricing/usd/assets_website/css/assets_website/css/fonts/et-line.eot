@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77722718-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-77722718-4');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:url" content="https://meetfox.com" />
+  <meta property="url" content="https://meetfox.com" />
+  <meta property="og:type" content="website" />
+  <meta property="type" content="website" />
+  <meta property="og:title" content="MeetFox: Where meetings happen with scheduling, video calls, payments" />
+  <meta property="og:description" content="Manages client meetings effortlessly from appointment scheduling, video calling, to getting paid instantly. Quick and easy to use. Free 15 days trial." />
+  <meta property="description" content="Manages client meetings effortlessly from appointment scheduling, video calling, to getting paid instantly. Quick and easy to use. Free 15 days trial." />
+  <meta property="og:image" content="https://meetfox.com/assets_website/img/MeetFox_preview.png" />
+  <meta property="image" content="https://meetfox.com/assets_website/img/MeetFox_preview.png" />
+  <meta name="google-site-verification" content="bgxrcQc1d3zdw82EZvx7vg0NFyK2ck0ZsVDmB7rOFmU" />
+  <meta name="theme-color" content="#003240" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@meetfox">
+  <meta name="twitter:title" content="MeetFox: Where meetings happen with scheduling, video calls, payments">
+  <meta name="twitter:description" content="Manages client meetings effortlessly from appointment scheduling, video calling, to getting paid instantly. Quick and easy to use. Free 15 days trial.">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:image" content="https://meetfox.com/assets_website/img/MeetFox_preview.png">
+  <title>MeetFox - Where Meetings Happen.</title>
+
+  <!-- Styles -->
+  <link rel="preload" href="../assets_website/css/page.min.css" as="style">
+  <link href="../assets_website/css/page.min.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="../assets_website/img/favicon.ico">
+  <link rel="icon" href="../assets_website/img/favicon.ico">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js')
+    }
+  </script>
+  <script>
+    window.intercomSettings = {
+      app_id: "gus429tf"
+    };
+  </script>
+  <script>
+    (function () {
+      var w = window;
+      var ic = w.Intercom;
+      if (typeof ic === "function") {
+        ic('reattach_activator');
+        ic('update', w.intercomSettings);
+      } else {
+        var d = document;
+        var i = function () {
+          i.c(arguments);
+        };
+        i.q = [];
+        i.c = function (args) {
+          i.q.push(args);
+        };
+        w.Intercom = i;
+        var l = function () {
+          var s = d.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://widget.intercom.io/widget/gus429tf';
+          var x = d.getElementsByTagName('script')[0];
+          x.parentNode.insertBefore(s, x);
+        };
+        if (w.attachEvent) {
+          w.attachEvent('onload', l);
+        } else {
+          w.addEventListener('load', l, false);
+        }
+      }
+    })();
+  </script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '204505723668020');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=204505723668020&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <script>
+    fbq('track', 'ViewContent');
+  </script>
+
+</head>
+
+<body class="back_gradient p3">
+  <nav class="navbar navbar-expand-lg navbar-dark  ;" data-navbar="fixed">
+    <script src="../assets_website/js/jquery-1.12.4.min.js"></script>
+    <div data-role="footer" class="CSO" data-position="fixed" id="navbarDiv">
+      <!-- /.navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ;" data-navbar="fixed">
+        <div class="container hidden-xs hidden-sm">
+          <div class=" navbar-right">
+            <a class="navbar-brand" href="../home/">
+              <img class="logo-dark align-middle" alt="logo" src="../assets_website/img/meetfox_logo_white_small.png">
+            </a>
+          </div>
+          <section class="navbar-mobile">
+            <nav class="nav nav-navbar ml-auto ">
+              <a class="nav-link light-font not-mobile" href="../features/">Features</a>
+              <a class="nav-link light-font not-mobile" href="../pricing/">Pricing</a>
+              <a class="nav-link light-font not-mobile" href="https://help.meetfox.com" target="_blank">Support</a>
+            </nav>
+            <div>
+              <a class="btn btn-regular btn-danger d-lg-inline-block mr-2 py-1 px-5 mx-4 my-0"
+                href="https://app.meetfox.com/en/auth/register/" onclick="log_Event(this)">Sign Up</a>
+
+            </div>
+            <nav class="nav nav-navbar ml-0 ">
+              <a class="nav-link light-font not-mobile" href="https://app.meetfox.com/en/auth/login"
+                onclick="log_Event(this)">Log In</a>
+            </nav>
+
+          </section>
+
+          <!-- mobile navbar - remove from desktop version, logo isnt vertically centered-->
+          <nav class="nav nav-inline nav-navbar ">
+            <a class="nav-link-hamburger lead-6 d-lg-none light" href="#" data-toggle="offcanvas"
+              data-target="#offcanvas-menu">&#x02261;&#xFE0E;</a>
+          </nav>
+        </div>
+
+
+      </nav>
+      <!-- /.navbar -->
+
+      <!-- Offcanvas - for mobile Menu -->
+      <div id="offcanvas-menu" class="offcanvas text-dark w-300 px-6" data-animation="slide-left"
+        style="background-color: rgba(255,255,255,1)">
+        <button type="button" class="close  px-6 float-right " data-dismiss="offcanvas" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <nav class="nav nav-lead flex-column my-7 bg-white">
+          <a class="nav-link mx-2 my-2" href="../features/">Features</a>
+          <a class="nav-link mx-2 my-2" href="../pricing/">Pricing</a>
+          <a class="nav-link mx-2 my-2" href="https://help.meetfox.com" target="_blank">Support</a>
+          <a class="btn btn-lg btn-danger mx-2 my-1" href="https://app.meetfox.com/en/auth/register/"
+            onclick="log_Event(this)">Sign Up</a>
+          <br>
+          <a class="btn  btn-outline-danger  btn-lg btn-danger mx-2 my-0"
+            href="https://app.meetfox.com/en/auth/login/" onclick="log_Event(this)">Log In</a>
+        </nav>
+
+        </section>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Header -->
+  <section class="bg-purple section_db vertical-center mb-0"
+    style="background-image: linear-gradient(-35deg, #fff 0%, #00c6ff 50%,#003240 130%);">
+    <div class="container ">
+      <header class=" mx-0 my-0">
+        <div class="row gap-x ">
+          <div
+            class="col-md-6  mx-md-0 px-md-0 my-auto py-auto px-sm-4 text-white text-center justify-content-sm-left text-md-left">
+            <h1>Where Meetings Happen.</h1>
+            <p class="lead">Schedule appointments, have online meetings, get paid, send invoices, and more. MeetFox has
+              you covered.</p>
+            <div class="col-md-auto ml-auto text-md-right mx-0 px-0 ">
+              <form id="sign_up_free" name="Sign up free - landing" class="form-inline justify-content-md-left justify-content-center form-sign-up"
+                action="https://app.meetfox.com/en/auth/register/">
+                <div class="form-group ">
+                  <input type="email" id="signUp_email" name="email" class="form-control w-300  mt-0 ml-0 mx-0 py-2 "
+                    placeholder="Email address" required autocomplete="email" aria-label="Email address"> </div>
+                <div>
+                  <input type="submit" class="btn btn-regular btn-danger d-lg-inline-block mt-0"
+                    autocomplete="on" value="Get Started" onClick="signUpEvent(this)">
+                </div>
+              </form>
+              <div class="row ml-auto mx-0 px-0 ">
+                <div class="col-md-12 text-sm-left text-center pl-0 no-card-required">
+                  <small>No credit card required.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mx-auto align-items-center text-center mb-0 pb-0 mx-0 px-0 pr-1 pl-md-5 mt-6">
+            <img class="" src="../assets_website/img/main_big.png" alt="Product scheduling process" href="https://www.youtube.com/embed/CbbTA-dge1w" data-provide="lightbox" style="cursor: pointer !important;"> 
+
+          </div>
+        </div>
+      </header>
+      <div class="align-items-center text-center">
+        <a class="scroll-down-1 scroll-down-white" style="text-align: center;	position: absolute;bottom: 3rem;"
+          href="#scrollSection"><span></span></a>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+    function signUpEvent(event) {
+      gtag('event', 'Free trial', {
+        'name': 'click',
+        'event_category': 'Free trial',
+        'event_label': 'Free trial email: ' + document.getElementById('signUp_email').value
+      });
+      fbq('track', 'SignUp');
+    }
+  </script>
+  <!-- End of Header -->
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!--
+            |â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’
+            | Features 1
+			| data-aos="fade-left"
+            |â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’
+            !-->
+
+    <section class="section pb-0 pt-md-4 " style="background-image: linear-gradient(-45deg, #f9f9f9 0%, #f9f9f9 50%);"
+      id="scrollSection">
+      <div class="container">
+        <div class="row">
+          <div class=" col-md-6 mx-0 pl-0 pr-0 text-center text-md-left pt-md-9 mb-4">
+            <h2 class="text-dark">Not just a scheduler</h2>
+            <p class="lead">You’re an expert eager to grow your business.<br>We’re eager to fill your schedule and make
+              you more money!</p>
+            <a href="/features" class="btn btn-regular btn-danger mt-md-5 mt-4" style="color: #fff !important;">Learn
+              How</a>
+          </div>
+					<div class="col-md-6  text-center py-0 mt-6 mt-md-8 order-md-first ">
+              <img class="" src="../assets_website/img/meeting man.png" style="max-width: 70% !important"
+                alt="App chat" data-aos="" loading="lazy">
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="timeline" class="section py-7 bg-white">
+      <div class="container">
+        <header class="section-header  pt-5 mb-0 text-center">
+          <h2>Focus on what you do best</h2>
+        </header>
+        <p class=" lead text-center">MeetFox takes care of every aspect of your meetings. From start to finish.</p>
+        <div class="row gap-y align-items-center text-center justify-content-center m-0 p-0">
+          <ol class="timeline timeline-horizontal justify-content-center ">
+
+            <li class="timeline-item text-justify text-center my-2 mx-md-2">
+              <div class="col-md-12 ">
+                <img src="../assets_website/img/calendar icon.png" class="mt-3 mb-5" style="max-height: 50px !important"
+                  alt="Working paddy" loading="lazy">
+                <h5>Automatic<br>scheduling</h5>
+                <p class="text-center" style="text-align-last: center;">Busy schedules are hard to remember, we'll manage it for you</p>
+                <a class="btn-link-light align-bottom" href="/features#scheduling">Learn more</a>
+            </li>
+
+            <li class="timeline-item text-justify text-center my-2 mx-md-2">
+              <div class="col-md-12 ">
+                <img src="../assets_website/img/meeting icon.png" class="mb-4" style="max-height: 70px !important"
+                  alt="Booking paddy" loading="lazy">
+              </div>
+              <h5>Meet online<br>or in person</h5>
+              <p class="text-center" style="text-align-last: center;">Show up at the right time in person, or share your expertise worldwide via video calls</p>
+              <a class="btn-link-light align-bottom" href="/features#meeting">Learn more</a>
+            </li>
+
+            <li class="timeline-item text-justify text-center my-2 mx-md-2">
+              <div class="col-md-12 ">
+                <img src="../assets_website/img/invoice icon.png" class="mb-4" style="max-height: 70px !important"
+                  alt="Paddy speaker" loading="lazy">
+              </div>
+              <h5>Automatic<br>invoices</h5>
+              <p class="text-center" style="text-align-last: center;">Spend less time on paperwork with effortless
+                invoicing <br>for paid meetings</p>
+              <a class="btn-link-light" href="/features#payments">Learn more</a>
+            </li>
+
+            <li class="timeline-item text-justify text-center my-2 mx-md-2">
+              <div class="col-md-12 ">
+                <img src="../assets_website/img/credit card icon.png" class=" mt-3 mb-5" style="max-height: 50px !important"
+                  alt="Paddy speaker" loading="lazy">
+              </div>
+              <h5>Instant<br>payments</h5>
+              <p class="text-center" style="text-align-last: center;">Chasing payment isn’t fun,<br>we’ll make sure you
+                get paid instantly after meetings</p>
+              <a class="btn-link-light" href="/features#payments">Learn more</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="section bg-purple pt-0 pb-0 ">
+      <div class="container ">
+        <div class="row ">
+
+          <div
+            class="col-md-7 mx-0 pl-5 text-left py-md-7 pt-3 text-white text-center justify-content-md-left text-md-left">
+            <h2 class="m-0 p-0">More hours in your day </h2>
+
+            <p class="lead m-0 p-0">Less time managing your meetings means more time to focus on
+              your clients and growing your business.</p>
+            <a href="https://app.meetfox.com/en/auth/register/1" class="btn btn-regular btn-danger mt-md-5 mt-2"
+              style="color: #fff !important;">Try It Now</a>
+          </div>
+          <div class="col-md-5 text-center m-0 p-0">
+            <img class="align-middle" src="../assets_website/img/second_lady_without_background.png"
+              style="width: 100%; height:100%;" alt="Smiling lady" loading="lazy">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Partners -->
+    <section class="bg-white section py-8 ">
+      <div class="container">
+        <div class="row gap-xy justify-content-center flex-wrap align-items-center">
+          <div class="col-md-12 text-center mb-4">
+            <h2 class="text-dark">You’re in good company</h2>
+            <p class="lead">2500+ experts worldwide are working with MeetFox already. Be one of them.</p>
+          </div>
+          <div class="col-2 p-1  m-0 text-center">
+            <img class="rounded " style="max-width: 50% !important;align-items: center;" src="../assets_website/img/a1.png"
+              alt="A1" loading="lazy">
+          </div>
+          <div class="col-2 p-1  m-0 text-center">
+            <img class="rounded " style="max-width: 80% !important;align-items: center;"
+              src="../assets_website/img/axelspringer.png" alt="Axelspringer" loading="lazy">
+          </div>
+          <div class="col-2 p-1  m-0 text-center">
+            <img class="rounded " style="max-width: 80% !important;align-items: center;"
+              src="../assets_website/img/ManagerSeminare.png" alt="ManagerSeminare" loading="lazy">
+          </div>
+          <div class="col-2 p-1  m-0 text-center">
+            <img class="rounded " style="max-width: 80% !important;align-items: center;" src="../assets_website/img/kurier.png"
+              alt="Kurier" loading="lazy">
+          </div>
+          <div class="col-2 p-1  m-0 text-center">
+            <img class="rounded " style="max-width: 80% !important;align-items: center;"
+              src="../assets_website/img/derbrutkasten-logo.png" alt="Derbrutkasten" loading="lazy">
+          </div>
+          <div class="col-2 p-1  m-0 text-center">
+            <img class="rounded " style="max-width: 50% !important;align-items: center;" src="../assets_website/img/ellis.png"
+              alt="Reply.io" loading="lazy">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section pb-0 pt-4 " style="background-image: linear-gradient(-45deg, #f9f9f9 0%, #f9f9f9 50%);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-0 pl-5 pt-md-6 mb-4 text-left ">
+            <h3 class="">"Since using MeetFox, my business has grown tremendously and I am working fewer hours! My calendar fills up on
+              its own with new meetings and I get paid after each one.<br>What an amazing tool!"</h3>
+            <small class="pl-6">Brano Frk, Educational Consultant</small>
+          </div>
+          <div class="col-md-6 m-0 p-0 order-md-first">
+            <img class="align-middle" src="../assets_website/img/brano frk.png" style="width: 100%; height:100%;"
+              alt="Smiling lady" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      |â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’
+      | CTA section
+      |â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’â€’
+      !-->
+
+    <div data-role="cta" class="CTA" data-position="fixed" id="cta">
+      <section class="section py-8 bg-purple"
+        style="background-image: linear-gradient(-30deg, #003240 -50%, #00c6ff 50%);">
+        <div class="container">
+          <div class="row gap-y align-items-center">
+            <div class="col-md-12 text-center p-sm-0 text-white">
+              <h2>More Clients. More Money. More Time.</h2>
+              <p class="lead">We make things simple for you, so you can focus on what matters.</p>
+            </div>
+            <div class="col-md-12 text-center text-md-right py-0 my-0">
+              <form class="form-inline justify-content-center" id="Get Started - bottom" name="Get Started - bottom"
+                action="https://app.meetfox.com/en/auth/register/">
+                <input type="submit" class="btn btn-regular btn-danger d-lg-inline-block mt-md-5" autocomplete="on"
+                  value="Sign Up" onClick="tryoutEvent(this)">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <div data-role="footer" class="CSO" data-position="fixed" id="footerDiv">
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="footer bg-light text-dark">
+    <div class="container justify-content-center py-7">
+      <div class="row gap-y justify-content-center ">
+
+        <div class="col-4 col-md-3 col-xl-2 ">
+          <div class="nav flex-column">
+            <h6 class="text-dark pl-0 ml-0">Product</h6>
+            <a class="nav-link" href="../features/">Features</a>
+            <a class="nav-link" href="../pricing/">Pricing</a>
+            <a class="nav-link" href="https://help.meetfox.com" target="_blank">Integrations</a>
+          </div>
+        </div>
+
+        <div class="col-4 col-md-3 col-xl-2">
+          <div class="nav flex-column">
+            <h6 class="text-dark pl-0 ml-0">Company</h6>
+            <a class="nav-link" href="https://meetfox.com/blog/" target="_blank">Blog</a>
+          </div>
+        </div>
+
+        <div class="col-4 col-md-3 col-xl-2">
+          <div class="nav flex-column">
+            <h6 class="text-dark pl-0 ml-0">Support</h6>
+            <a class="nav-link" href="https://help.meetfox.com" target="_blank">FAQ</a>
+            <a class="nav-link" href="https://help.meetfox.com" target="_blank">Tutorials</a>
+            <a class="nav-link" onclick="Intercom('show');" href="#">Contact us</a>
+          </div>
+        </div>
+
+        <div class="col-8 col-md-3 col-xl-3 text-center">
+          <div class="nav flex-column">
+            <h6 class="text-dark pl-0 ml-0 mb-2">We are happy to help!</h6>
+            <p class="my-0 mb-1 py-0">+1 917 580 9878</p>
+            <p class="my-0 mb-1 py-0">+43 1 330 3683</p>
+            <a href="mailto:hello@meetfox.com" class="text-secondary">hello@meetfox.com</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Small Footer -->
+    <hr class="my-5">
+    <div class="container py-1">
+      <div class="row gap-y align-items-center ">
+
+        <div class="col-md-2 text-center text-md-left my-0 py-0">
+          <a href="./"><img src="../assets_website/img/meetfox_logo_dark_small.png" style="max-width: 30% !important"
+              alt="logo"></a>
+        </div>
+
+        <div class="col-md-8 my-0 py-0">
+          <div class="nav nav-bold nav-uppercase nav-center">
+            <a class="nav-link" href="../imprint/"><small>Imprint</small></a>
+            <a class="nav-link" href="../TC_clients/"><small>T&C for clients</small></a>
+            <a class="nav-link" href="../TC_experts/"><small>T&C for experts</small></a>
+            <a class="nav-link" href="../data_policy/"><small>Data Policy</small></a>
+            <a class="nav-link" href="../startseite/"><small>Deutsch</small></a>
+          </div>
+        </div>
+
+        <div class="col-md-2 text-center text-md-right my-0 py-0">
+          <div class="social social-sm social-hover-bg-brand">
+            <a class="social-facebook" href="https://www.facebook.com/mymeetfox/" target="_blank"
+              aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="social-instagram" href="https://www.instagram.com/mymeetfox/" target="_blank"
+              aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="social-twitter" href="https://twitter.com/myMeetFox" target="_blank" aria-label="Twitter"><i
+                class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="social-twitter" href="https://www.linkedin.com/company/meetfox/" target="_blank"
+              aria-label="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets_website/js/page.min.js"></script>
+  <script src="../assets_website/js/script.js"></script>
+  <script>
+    $(function () { //changing color of navigation text on scroll
+      if ($('html, body').scrollTop() > 56) {
+        $(".not-mobile").removeClass("light-font");
+        $(".nav-link-hamburger").removeClass("light");
+        $('.logo-dark ').attr('src', '../assets_website/img/meetfox_logo_dark_small.png');
+      }
+
+$('body').on({'touchmove': function(e) {
+  if ($('body').scrollTop() < 56 &&  ($('html').scrollTop() < 56) )  {
+          $(".not-mobile").addClass("light-font");
+          $(".nav-link-hamburger").addClass("light");
+          $('.logo-dark ').attr('src', '../assets_website/img/meetfox_logo_white_small.png');
+        } else {
+          $(".not-mobile").removeClass("light-font");
+          $(".nav-link-hamburger").removeClass("light");
+          $('.logo-dark ').attr('src', '../assets_website/img/meetfox_logo_dark_small.png');
+        }
+    }
+});
+
+      $(window).scroll(function () {
+        if ($('body').scrollTop() < 56 &&  ($('html').scrollTop() < 56) )  {
+          $(".not-mobile").addClass("light-font");
+          $(".nav-link-hamburger").addClass("light");
+          $('.logo-dark ').attr('src', '../assets_website/img/meetfox_logo_white_small.png');
+        } else {
+
+          $(".not-mobile").removeClass("light-font");
+          $(".nav-link-hamburger").removeClass("light");
+          $('.logo-dark ').attr('src', '../assets_website/img/meetfox_logo_dark_small.png');
+        }
+      });
+    });
+  </script>
+  <script type="text/javascript" async>
+    function tryoutEvent(event) {
+      gtag('event', 'Free trial', {
+        'name': 'click',
+        'event_category': 'Free trial',
+        'event_label': 'Free trial cta'
+      });
+      fbq('track', 'SignUp');
+    }
+  </script>
+    <script type="text/javascript">
+      $( document ).ready(function(){
+        var userLang = window.navigator.userLanguage || window.navigator.language;          
+	userLang = userLang.toLowerCase();
+    	if (typeof(Storage) !== 'undefined') {
+        	if (userLang == "de") {
+			if (localStorage.language != "de") {
+             			window.location.href = "https://meetfox.com/startseite/"
+    			localStorage.language = userLang;
+			} 
+		}	
+	}
+	 });
+  </script>
+
+</body>
+
+</html>

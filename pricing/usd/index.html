@@ -1,0 +1,277 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:type" content="website" />
+    <meta property="type" content="website" />
+    <meta name="theme-color" content="#003240" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('pricing/service-worker.js')
+      }
+    </script>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:type" content="website" />
+    <meta property="type" content="website" />
+    <meta name="theme-color" content="#75cde5" />
+    <title>Wosno - Pricing</title>
+    <!-- Styles -->
+    <link rel="preload" href="assets_website/css/page.min.css" as="style">
+    <link href="assets_website/css/page.min.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets_website/img/favicon.ico">
+    <link rel="icon" href="assets_website/img/favicon.ico">
+  </head>
+  <body class="back_gradient p3">
+
+    <!-- Main Content -->
+    <main class="main-content">
+ 
+      <div class="section container text-center mt-6">
+        <div class="col-md-9 mx-auto">
+          <h2> Hassle-free graphic design services</h2>
+          <p class="lead pb-5">Avoid Scams. Secure Payments. Money Back Guarantee.</p>
+          <div class="row gap-y text-center my-2 justify-content-center">
+            <div class="col-md-4 text-center py-0 mb-3">
+              <div class="btn-group btn-group-toggle mb-2" name="period_buttons" data-toggle="buttons">
+                <label class="btn  btn-round  btn-outline-secondary w-100 active">
+                  <input id="yearly_button" type="radio" onchange="yearly()" value="yearly" autocomplete="off"
+                    checked>GRAPHIC DESIGN
+                </label>
+                <label class="btn  btn-round  btn-outline-secondary w-100">
+                  <input id="monthly_button" type="radio" onchange="monthly()" value="monthly"
+                    autocomplete="off">WEBSITE DESIGN
+                </label>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <table class="table table-responsive-sm bg-white">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="bg-whote text-center p-0 m-0">
+                <h5 class=" text-center text-dark  py-4 px-7">BASIC</h5>
+                <div id="1yearly">
+                  <h3 class="price">
+                    <span data-bind-radio="pricing-currency" data-eur="&euro;7,90" data-usd="$9.90">$99</span>
+                  </h3>
+                  <p class="small text-lighter">*Starting from $99</p>
+                </div>
+                <div id="1monthly" class="hidden_response">
+                  <h3 class="price">
+                    <span data-bind-radio="pricing-currency" data-eur="&euro;9,90" data-usd="$11.90">$999</span>
+                  </h3>
+                  <p class="small text-lighter">*Starting from $999</p>
+                </div>
+                <p class="text-center ">
+                  <a class="btn btn-danger btn-regular" href="app_subdomain/en/auth/register.html"
+                    data-bind-href="pricing-own" data-monthly="#monthly" data-yearly="#yearly">Get Quote</a>
+                </p>
+              </th>
+              <th class="bg-light text-center p-0 m-0">
+                <h5 class=" text-center text-secondary py-4 px-4">PROFESSIONAL</h5>
+                <div id="2yearly">
+                  <h3 class="price">
+                    <span data-bind-radio="pricing-currency" data-eur="&euro;21,90" data-usd="$24.90">$299</span>
+                  </h3>
+                  <p class="small text-lighter">*Starting from $299</p>
+                </div>
+                <div id="2monthly" class="hidden_response">
+                  <h3 class="price">
+                    <span data-bind-radio="pricing-currency" data-eur="&euro;24,90" data-usd="$29.90">$1.999</span>
+                  </h3>
+                  <p class="small text-lighter">*Starting from $1999</p>
+                </div>
+                <p class="text-center ">
+                  <a class="btn btn-danger btn-regular" href="app_subdomain/en/auth/register.html"
+                    data-bind-href="pricing-own" data-monthly="#monthly" data-yearly="#yearly">Get Quote</a>
+                </p>
+              </th>
+              <th class="bg-secondary text-center p-0 m-0" style="border: 0px !important">
+                <h5 class="bg-secondary text-center text-white py-4 px-4">HIRE A PRO</h5>
+                <div id="3yearly">
+                  <h3 class="price text-white">Let's Talk!</h3>
+                  <p class="small text-lighter">*Flat monthly fee</p>
+                </div>
+                <p class="text-center ">
+                  <a class="btn btn-primary btn-regular" onclick="Intercom('show');" href="#">Get Quote</a>
+                </p>
+              </th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="text-right pt-2 pb-0 " style="border: 0px !important">
+                <h5 class="text-secondary py-1">Awarded Professionals</h5>
+              </th>
+              <td class="" style="border: 0px !important"></td>
+              <td class="" style="border: 0px !important"></td>
+              <th class="bg-secondary text-white no-border" style="border: 0px !important"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="text-right text-secondary"><b>Best Professional Experts</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white no-border" style="border: 0px !important">Stunning Engaging Designs</th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>Awards & Recognitions</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white no-border" style="border: 0px !important">White Label Solution</th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>Stunning Engaging Designs</b></td>
+              <td class=" "><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light"><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white" style="border: 0px !important">Customized Services</th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>Premium Quality Work</b></td>
+              <td class=" "><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light"><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white" style="border: 0px !important">Premium Support</th>
+            </tr>
+            <thead>
+              <tr>
+                <th class="text-right pt-2 pb-0" style="border: 0px !important">
+                  <h5 class=" text-secondarypy-1">Premium Daily Support</h5>
+                </th>
+                <td class="" style="border: 0px !important"></td>
+                <td class="" style="border: 0px !important"></td>
+                <th class="bg-secondary  text-white" style="border: 0px !important">Best Professional Experts</th>
+              </tr>
+            </thead>
+            <tr>
+              <td class="text-right  text-secondary"><b>Quick Response Team</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light"><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary  text-white" style="border: 0px !important"></th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>Stock Photos Included</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white" style="border: 0px !important"></th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>You own all rights to work created</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white" style="border: 0px !important"></th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>100% Confidential</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white  px-0 mx-0" style="border: 0px !important;"></th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>7 Days Chat Support</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light"><i class="ti-check pricing-check"></i></td>
+              <td class="bg-secondary" style="border: 0px !important"></td>
+            </tr>
+            <thead>
+              <tr>
+                <th class="text-right pt-2 pb-0 " valign="bottom" style="border: 0px !important">
+                  <h5 class=" text-secondary py-1">Satisfaction Guaranteed</h5>
+                </th>
+                <td class="" style="border: 0px !important"></td>
+                <td class="" style="border: 0px !important"></td>
+                <th class="bg-secondary text-white" style="border: 0px !important"></th>
+              </tr>
+            </thead>
+            <tr>
+              <td class="text-right text-secondary"><b>Unlimited Redesigns</td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <td class="bg-secondary  text-white" style="border: 0px !important"></td>
+            </tr>
+            <tr>
+                <td class="text-right text-secondary"><b>Secure Payments</b></td>
+               <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+                <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+                <td class="bg-secondary  text-white" style="border: 0px !important"></td>
+              </tr>
+              <tr>
+                  <td class="text-right text-secondary"><b>Money Back Guarantee</b></td>
+                  <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+                  <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+                  <td class="bg-secondary  text-white" style="border: 0px !important"></td>
+                </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>On-time delivery (OTD)</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <td class="bg-secondary text-white" style="border: 0px !important"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <script>
+        function monthly() {
+          document.getElementById("1monthly").className = "visible_response";
+          document.getElementById("1yearly").className = "hidden_response";
+          document.getElementById("2monthly").className = "visible_response";
+          document.getElementById("2yearly").className = "hidden_response";
+        }
+        function yearly() {
+          document.getElementById("1monthly").className = "hidden_response";
+          document.getElementById("1yearly").className = "visible_response";
+          document.getElementById("2monthly").className = "hidden_response";
+          document.getElementById("2yearly").className = "visible_response";
+        }
+      </script>
+      
+      </footer>
+    </div>
+    <script type="text/javascript">
+      function log_Event(event) {
+        gtag('event', 'SignIn/SignUp redirect', {
+          'name': 'click',
+          'event_category': 'SignIn/SignUp event',
+          'event_label': 'App redirect SignIn/SignUp',
+        });
+        fbq('track', 'SignUp');
+      }
+    </script>
+    <script type="text/javascript">
+      function tryoutEvent(event) {
+        gtag('event', 'Free trial', {
+          'name': 'click',
+          'event_category': 'Free trial',
+          'event_label': 'Free trial cta'
+        });
+        fbq('track', 'SignUp');
+      }
+    </script>
+    <script async>
+      function appendString(obj) {
+        localStorage.setItem('german', true);
+        localStorage.removeItem('english');
+        var url = window.location.href;
+        var lan = "de/";
+        var n = url.indexOf("/new_website/");
+        var position = window.location.host.length + 9;
+        if (n > -1) position = 34;
+        var output = [url.slice(0, position), lan, url.slice(position)].join('');
+        obj.setAttribute('href', output);
+      }
+    </script>
+    <!-- Scripts -->
+    <script src="assets_website/js/page.min.js"></script>
+    <script src="assets_website/js/script.js"></script>
+  </body>
+  </html>
