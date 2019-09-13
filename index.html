@@ -545,6 +545,156 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/sttheme.com\/demosd\/agensy\/wp-jso
 <script  src='print.js'></script>
 <script  src='disableMouseRightClick.js'></script>
 
+<!-- FIVVER CHAT STARTS HERE -->
+	  <!-- pop up section starts here -->
+ <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+<style type="text/css">
+#overlay {
+	position: fixed;
+	background-color: #000;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	z-index: 100;
+	display: none;
+}
+.cnt a{
+	text-decoration: none;
+}
+	
+.popup{
+	width: 100%;
+	overflow-y: auto;	
+	display: none;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	z-index: 101;
+	
+}
+	
+	
+.cnt{
+	width: 300px;
+	max-height: 700px;
+	margin-left: auto !important;
+	background: #FFFFFF;
+	position: relative;
+	z-index: 103;
+	padding: 25px;
+	border-radius: 5px;
+	box-shadow: 0 1px 23px 0 rgba(50,57,66,0.09);
 
+}
+	
+.cnt p{
+clear: both;
+    color: #555555;
+	font-size: 15px;
+    font-family: sans-serif;
+	padding-left: 7px;
+	padding-right:7px;
+}
+
+	
+.cnt .x{
+	float: right;
+	height: 80%;
+	left: 22px;
+	position: relative;
+	top: -25px;
+	width: 34px;
+}
+.cnt .x:hover{
+	cursor: pointer;
+}
+	.buttn{
+		width: 80;
+
+	}
+	
+	.buttn p{
+		background-color: #007bff;
+		text-align: center;
+		color: white !important;
+		border-radius: 5px;
+		height: 45px;
+		padding-top: 11px;
+		padding-left: auto;
+		padding-right: auto;
+		cursor: pointer;
+		
+	}
+	
+	.buttn a{
+		color: white;
+	}
+	
+	
+
+	.name p{
+		font-size: 12px;
+		padding-left: 50px;
+		position: absolute;
+		bottom: 353px;
+	
+	}
+	
+	
+	
+</style>
+<script type="text/javascript">
+$(function(){
+var overlay = $('<div id="overlay"></div>');
+overlay.show();
+overlay.appendTo(document.body);
+$('.popup').show();
+$('.close').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+
+
+ 
+
+$('.x').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+});
+</script>
+	  
+<div class="popup" style="padding-top: -20px;">
+<div class="cnt">
+		
+	<a href="#" class="close" style="float: right; margin-top: -20px"><img src="https://cdn4.iconfinder.com/data/icons/mayssam/512/cross-256.png" alt="" width="15"></a>
+
+	<div class="name">
+        <img src="https://img.convertflow.co/production/users/4708/1552041427-paul_profile_picture_80x80.png" alt="" class="img-fluid rounded-circle mb-3" style="width: 40px; height: 40px;" >
+		<p><strong>Paul Priesler</strong>
+		<br>Growmodo</p>
+		
+
+	</div>
+	
+	
+	
+
+	<p><img src="https://image.flaticon.com/icons/svg/511/511189.svg" width="18" alt=""> <strong> Thanks for Stopping by! <br>
+	 How can we help you today? </strong></p>
+	<p>Let us know what are you looking to achieve, and we'll do our best to guide you to the right spot.</p>
+
+	<div class="buttn">
+	<p class="buttn"><a href="#">I Need a Website Redesign </a></p>
+	<p class="buttn"><a href="#"> I Need Tech and Design Help </a></p>
+	<p class="buttn"><a href=""> I Need to chat with support </a></p>
+		</div>
+
+</div>
+</div>
+	  <!-- FIVVER CHAT ENDS HERE -->
 </body>
 </html>
