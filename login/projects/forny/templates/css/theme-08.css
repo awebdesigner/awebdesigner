@@ -50,8 +50,8 @@
 }
 
 .forny-two-pane > div:last-child {
-    background: url('img/bg-08.png') center center no-repeat
-        hsla(31, 80%, 93%, 1);
+    background: url('img/meet.png') center center no-repeat
+        black;
     display: none;
 }
 
