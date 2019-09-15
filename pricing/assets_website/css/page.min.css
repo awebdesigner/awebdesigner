@@ -24828,6 +24828,7 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
 	-webkit-box-shadow:0 0 20px -4px #555;
 	box-shadow: 0 0 20px -4px #555;
 	transition: background-color 200ms linear;
+	position: absolute !important;
 }
 
 .navbar-scrolled [data-navbar="fixed"] .d-stick-none {

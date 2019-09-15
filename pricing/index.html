@@ -1,158 +1,324 @@
-<!-- 
-Note: If you want remove ThemeForest demo bar, use redirect functions like this:
-http://demos.yoursite.com/redirect.php?theme=THEMENAME or http://yoursite.com/demos/redirect.php?theme=THEMENAME 
-Important is: .../redirect.php?theme=THEMENAME
--->
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta charset="utf-8">
-<title>Themetorium - Premium Themes | Item: Sepia</title>
-<!-- Mobile Specific -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<!-- CSS Style -->
-<link rel="stylesheet" href="bar/assets/css/style.css"> 
-<!-- Favicons -->
-<link rel="shortcut icon" href="bar/assets/img/favicon.ico">
-<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
-<!-- Used Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
-<!-- JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script >
-	var theme_list_open=false;
-		$(document).ready(function(){function e(){var e=$("#switcher")
-		.height();$("#iframe")
-		.attr("height",
-		$(window).height()-e+"px")}
-		IS_IPAD=navigator.userAgent.match(/iPad/i)!=null;
-		$(window).resize(function(){e()}).resize();
-			$("#theme_list").hover(function(){if(theme_list_open==true){
-			$(".center ul li ul").hide();theme_list_open=false}else{
-			$(".center ul li ul").show();theme_list_open=true}return false});
-			$("#theme_list ul li a").click(function(){var e=$(this).attr("rel").split(",");
-			$("li.purchase a").attr("href",e[1]);
-			$("li.remove_frame a").attr("href",e[0]);
-			$("#iframe").attr("src",e[0]);
-			window.location.href = "?theme="+e[2]+""
-			$("li.close a").attr("src",e[0]);
-			$("#theme_list a#theme_select").text($(this).text());
-			$(".center ul li ul").hide();theme_list_open=false;return false});
-			$("#header-bar").hide();clicked="desktop";var t={desktop:"100%",tabletlandscape:1040,tabletportrait:788,mobilelandscape:500,mobileportrait:340,placebo:0};jQuery(".responsive a").on("click",function(){var e=jQuery(this);for(device in t){console.log(device);console.log(t[device]);if(e.hasClass(device)){clicked=device;jQuery("#iframe").width(t[device]);if(clicked==device){jQuery(".responsive a").removeClass("active");e.addClass("active")}}}return false});if(IS_IPAD){
-			$("#iframe").css("padding-bottom","60px")
-		}}
-	)
-</script>
-
-    <script >
-
-
-        var allwebdata =[
-        {
-            "websiteName":"Layout 1",
-            "websiteLink":"https://wosno.com/pricing/usd/index.html"
-
-        }
-    
-  ];
-
-        $(document).ready(function() {
-         var people=allwebdata;
-                var output= '';
-                for(var i = 0;i <people.length;i++){
-                    output += '<li class="button_a" id="website"><a href="'+people[i].websiteLink +'" target="iframe" >' + people[i].websiteName + '<span style="background:#1DBD57">HTML</span></a></li>';
-                }
-                document.getElementById('people').innerHTML = output;
-        });
-       
-        
-
-      $(document).ready(function(){
-            $(".button_a a").click(function(e){
-                e.preventDefault();
-                $("#iframe").attr("src", $(this).attr("href"));
-            })
-       //     $("#container").children().bind('click', function(){ return false; });
-            $("#container").off("click");
-        });
-
-
-</script>
-</head>
-<body>
-    <div id="switcher">
-		<div class="center">
-            <div class="logo">
-                <a href="../index.html" title="Themetorium - Premium Themes"><img src="bar/assets/img/logo.png" alt="Themetorium - Premium Themes" /></a>
-            </div>
-                <ul>
-                    <li id="theme_list"><a id="theme_select" >
-					Select a sample...</a>
-				<ul>
-                   <li id="people"></li>
-				         <!--  original with theme preview         <li class="button_a">
-					<a href="#" rel="https://demo.themetorium.net/html/sepia/,https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium,Sepia">Sepia <span style="background:#1DBD57">HTML</span></a><img alt="" class="preview" src="img/cover/stuff_subdomain/sepia-cover.png"></li><li class="button_a">
-					<a href="#" rel="https://demo.themetorium.net/html/freebird/demos.html,https://themeforest.net/item/freebird-photography-portfolio-html-website-template/19180343?ref=Themetorium,FreeBird">FreeBird <span style="background:#1DBD57">HTML</span></a><img alt="" class="preview" src="img/cover/stuff_subdomain/freebird-cover.png"></li><li class="button_a">
-					<a href="#" rel="https://demo.themetorium.net/html/waldo/,https://themeforest.net/item/waldo-responsive-html-portfolio-website-template/17841590?ref=Themetorium,Waldo">Waldo <span style="background:#1DBD57">HTML</span></a><img alt="" class="preview" src="img/cover/stuff_subdomain/waldo-cover.png"></li><li class="button_a">
-					<a href="#" rel="https://demo.themetorium.net/html/agatha/,https://themeforest.net/item/agatha-photography-portfolio-website-template/15349868?ref=Themetorium,Agatha">Agatha <span style="background:#1DBD57">HTML</span></a><img alt="" class="preview" src="img/cover/stuff_subdomain/agatha-cover.png"></li>                </ul>
-                    </li>	-->
-					                <!--  <li class="button_a">
-					<a href="#" rel="https://demo.themetorium.net/html/sepia/,https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium,Sepia">Sepia <span style="background:#1DBD57">HTML</span></a></li>
-                    <li>
-					<a href="#" rel="https://demo.themetorium.net/html/freebird/demos.html,https://themeforest.net/item/freebird-photography-portfolio-html-website-template/19180343?ref=Themetorium,FreeBird">FreeBird <span style="background:#1DBD57">HTML</span></a>
-					<a href="#" rel="https://demo.themetorium.net/html/waldo/,https://themeforest.net/item/waldo-responsive-html-portfolio-website-template/17841590?ref=Themetorium,Waldo">Waldo <span style="background:#1DBD57">HTML</span></a>
-					<a href="#" rel="https://demo.themetorium.net/html/agatha/,https://themeforest.net/item/agatha-photography-portfolio-website-template/15349868?ref=Themetorium,Agatha">Agatha <span style="background:#1DBD57">HTML</span></a> </li>                </ul>
-                    </li>	 -->
-                </ul>
-                </ul>
-                <div class="responsive">
-                    <a href="#" class="desktop active" title="View Desktop Version"></a> 
-                    <a href="#" class="tabletlandscape" title="View Tablet Landscape (1024x768)"></a> 
-                    <a href="#" class="tabletportrait" title="View Tablet Portrait (768x1024)"></a> 
-                    <a href="#" class="mobilelandscape" title="View Mobile Landscape (480x320)"></a>
-                    <a href="#" class="mobileportrait" title="View Mobile Portrait (320x480)"></a>
-                </div> 
-
-                <ul class="links">
-                    <li class="purchase" rel="https://themeforest.net/item/sepia-photography-portfolio-html-website-template/20195226?ref=Themetorium">
-                    <!-- 	<a href="../index.html"><img src="bar/assets/img/purchase.png" alt="Purchase this Theme" /> <span class="hide-to-xs">Home</span><span class="hide-from-xs">Home</span></a> -->
-                    </li>		
-                    <li class="close" rel="https://demo.themetorium.net/html/sepia/">
-                    	<a href="../index.html"><img src="bar/assets/img/cross.png" alt="Close" title="Remove frame" /></a>
-                    </li>		
-                </ul>
-        </div>
-    </div>
- 
-  
-  <div id="container"> 
-    <iframe id="iframe" class="update" name="iframe" src="https://wosno.com/pricing/usd/index.html" frameborder="1" width="100%" height="auto" scrolling="yes"></iframe>
-   </div>
-<!--  -->
-    <!-- Place this tag after the last +1 button tag. -->
-    <script type="text/javascript">
-
-
-
-      (function() {
-      	$("button").click(function(){
-  			$("p").off("click");
-		});
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://apis.google.com/js/plusone.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-      })();
-      document.oncontextmenu = function() { 
-    return false; 
-};
-
-        
+  <!DOCTYPE html>
+  <html lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:type" content="website" />
+    <meta property="type" content="website" />
+    <meta name="theme-color" content="#003240" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('pricing/service-worker.js')
+      }
     </script>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:type" content="website" />
+    <meta property="type" content="website" />
+    <meta name="theme-color" content="#75cde5" />
+    <title>Wosno - Pricing</title>
+    <!-- Styles -->
+    <link rel="preload" href="assets_website/css/page.min.css" as="style">
+    <link href="assets_website/css/page.min.css" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets_website/img/favicon.ico">
+    <link rel="icon" href="assets_website/img/favicon.ico">
+  </head>
+  <body class="back_gradient p3">
+  
+  <!-- /.navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark ;" data-navbar="fixed">
+      <div class="container hidden-xs hidden-sm">
+        <div class=" navbar-right">
+          <a class="navbar-brand" href="home.html">
+            <img class="logo-dark align-middle" alt="logo" src="logo.png">
+          </a>
+        </div>
+        <section class="navbar-mobile">
+          <nav class="nav nav-navbar ml-auto ">
+            <a class="nav-link" href="http://wosno.com/">HomePage</a>
+            <a class="nav-link" href="http://wosno.com/final/index.html"><u>Graphic Design</u></a>
+            <a class="nav-link" href="http://wosno.com/websites/index.html">Web Design</a>
+			<a class="nav-link" href="http://wosno.com/developement/index.html">Developement</a>
+          </nav>
+          <div>
+            <a class="btn btn-regular btn-danger d-lg-inline-block mr-2 py-1 px-5 mx-4 my-0"
+              href="https://wosno.com/login/index.html" onclick="log_Event(this)">Login</a>
+          </div>
+        </section>
+        <!-- mobile navbar - remove from desktop version, logo isnt vertically centered-->
+        <nav class="nav nav-inline nav-navbar ">
+          <a class="nav-link-hamburger lead-6 d-lg-none" href="#" data-toggle="offcanvas"
+            data-target="#offcanvas-menu">&#x02261;&#xFE0E;</a>
+        </nav>
+      </div>
+    </nav>
+    <!-- /.navbar -->
+    <!-- Offcanvas - for mobile Menu -->
+    <div id="offcanvas-menu" class="offcanvas text-dark w-300 px-6" data-animation="slide-left"
+      style="background-color: rgba(255,255,255,1)">
+      <button type="button" class="close  px-6 float-right " data-dismiss="offcanvas" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <nav class="nav nav-lead flex-column my-7 bg-white">
+        <a class="nav-link mx-2 my-2" href="features.html">Features</a>
+        <a class="nav-link mx-2 my-2" href="pricing.html"><u>Pricing</u></a>
+        <a class="nav-link mx-2 my-2" href="help_subdomain/index.html" target="_blank">Support</a>
+        <a class="btn btn-lg btn-danger mx-2 my-1" href="app_subdomain/en/auth/register.html"
+          onclick="log_Event(this)">Sign Up</a>
+        <br>
+        <a class="btn  btn-outline-danger  btn-lg btn-danger mx-2 my-0" href="app_subdomain/en/auth/login.html"
+          onclick="log_Event(this)">Log In</a>
+      </nav>
+    </div>
+    <!-- end Offcanvas - for mobile Menu -->
 
-</body>
-</html>
+    <!-- Main Content -->
+    <main class="main-content">
+ 
+      <div class="section container text-center mt-6">
+        <div class="col-md-9 mx-auto">
+          <h2> Hassle-free graphic design services</h2>
+          <p class="lead pb-5">Avoid Scams. Secure Payments. Money Back Guarantee.</p>
+          <div class="row gap-y text-center my-2 justify-content-center">
+            <div class="col-md-4 text-center py-0 mb-3">
+              <div class="btn-group btn-group-toggle mb-2" name="period_buttons" data-toggle="buttons">
+                <label class="btn  btn-round  btn-outline-secondary w-100 active">
+                  <input id="yearly_button" type="radio" onchange="yearly()" value="yearly" autocomplete="off"
+                    checked>GRAPHIC DESIGN
+                </label>
+                <label class="btn  btn-round  btn-outline-secondary w-100">
+                  <input id="monthly_button" type="radio" onchange="monthly()" value="monthly"
+                    autocomplete="off">WEBSITE DESIGN
+                </label>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <table class="table table-responsive-sm bg-white">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="bg-whote text-center p-0 m-0">
+                <h5 class=" text-center text-dark  py-4 px-7">BASIC</h5>
+                <div id="1yearly">
+                  <h3 class="price">
+                    <span data-bind-radio="pricing-currency" data-eur="&euro;7,90" data-usd="$9.90">$99</span>
+                  </h3>
+                  <p class="small text-lighter">*Starting from $99</p>
+                </div>
+                <div id="1monthly" class="hidden_response">
+                  <h3 class="price">
+                    <span data-bind-radio="pricing-currency" data-eur="&euro;9,90" data-usd="$11.90">$999</span>
+                  </h3>
+                  <p class="small text-lighter">*Starting from $999</p>
+                </div>
+                <p class="text-center ">
+                  <a class="btn btn-danger btn-regular" href="http://wosno.com/contact/index.html"
+                    data-bind-href="pricing-own" data-monthly="#monthly" data-yearly="#yearly">Get Quote</a>
+                </p>
+              </th>
+              <th class="bg-light text-center p-0 m-0">
+                <h5 class=" text-center text-secondary py-4 px-4">PROFESSIONAL</h5>
+                <div id="2yearly">
+                  <h3 class="price">
+                    <span data-bind-radio="pricing-currency" data-eur="&euro;21,90" data-usd="$24.90">$299</span>
+                  </h3>
+                  <p class="small text-lighter">*Starting from $299</p>
+                </div>
+                <div id="2monthly" class="hidden_response">
+                  <h3 class="price">
+                    <span data-bind-radio="pricing-currency" data-eur="&euro;24,90" data-usd="$29.90">$1.999</span>
+                  </h3>
+                  <p class="small text-lighter">*Starting from $1999</p>
+                </div>
+                <p class="text-center ">
+                  <a class="btn btn-danger btn-regular" href="http://wosno.com/contact/index.html"
+                    data-bind-href="pricing-own" data-monthly="#monthly" data-yearly="#yearly">Get Quote</a>
+                </p>
+              </th>
+              <th class="bg-secondary text-center p-0 m-0" style="border: 0px !important">
+                <h5 class="bg-secondary text-center text-white py-4 px-4">HIRE A PRO</h5>
+                <div id="3yearly">
+                  <h3 class="price text-white">Let's Talk!</h3>
+                  <p class="small text-lighter">*Flat monthly fee</p>
+                </div>
+                <p class="text-center ">
+                  <a class="btn btn-primary btn-regular" onclick="Intercom('show');" href="http://wosno.com/contact/index.html">Get Quote</a>
+                </p>
+              </th>
+            </tr>
+          </thead>
+          <thead>
+            <tr>
+              <th class="text-right pt-2 pb-0 " style="border: 0px !important">
+                <h5 class="text-secondary py-1">Awarded Professionals</h5>
+              </th>
+              <td class="" style="border: 0px !important"></td>
+              <td class="" style="border: 0px !important"></td>
+              <th class="bg-secondary text-white no-border" style="border: 0px !important"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="text-right text-secondary"><b>Best Professional Experts</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white no-border" style="border: 0px !important">Stunning Engaging Designs</th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>Awards & Recognitions</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white no-border" style="border: 0px !important">White Label Solution</th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>Stunning Engaging Designs</b></td>
+              <td class=" "><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light"><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white" style="border: 0px !important">Customized Services</th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>Premium Quality Work</b></td>
+              <td class=" "><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light"><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white" style="border: 0px !important">Premium Support</th>
+            </tr>
+            <thead>
+              <tr>
+                <th class="text-right pt-2 pb-0" style="border: 0px !important">
+                  <h5 class=" text-secondarypy-1">Premium Daily Support</h5>
+                </th>
+                <td class="" style="border: 0px !important"></td>
+                <td class="" style="border: 0px !important"></td>
+                <th class="bg-secondary  text-white" style="border: 0px !important">Best Professional Experts</th>
+              </tr>
+            </thead>
+            <tr>
+              <td class="text-right  text-secondary"><b>Quick Response Team</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light"><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary  text-white" style="border: 0px !important"></th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>Stock Photos Included</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white" style="border: 0px !important"></th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>You own all rights to work created</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white" style="border: 0px !important"></th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>100% Confidential</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <th class="bg-secondary text-white  px-0 mx-0" style="border: 0px !important;"></th>
+            </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>7 Days Chat Support</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light"><i class="ti-check pricing-check"></i></td>
+              <td class="bg-secondary" style="border: 0px !important"></td>
+            </tr>
+            <thead>
+              <tr>
+                <th class="text-right pt-2 pb-0 " valign="bottom" style="border: 0px !important">
+                  <h5 class=" text-secondary py-1">Satisfaction Guaranteed</h5>
+                </th>
+                <td class="" style="border: 0px !important"></td>
+                <td class="" style="border: 0px !important"></td>
+                <th class="bg-secondary text-white" style="border: 0px !important"></th>
+              </tr>
+            </thead>
+            <tr>
+              <td class="text-right text-secondary"><b>Unlimited Redesigns</td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <td class="bg-secondary  text-white" style="border: 0px !important"></td>
+            </tr>
+            <tr>
+                <td class="text-right text-secondary"><b>Secure Payments</b></td>
+               <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+                <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+                <td class="bg-secondary  text-white" style="border: 0px !important"></td>
+              </tr>
+              <tr>
+                  <td class="text-right text-secondary"><b>Money Back Guarantee</b></td>
+                  <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+                  <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+                  <td class="bg-secondary  text-white" style="border: 0px !important"></td>
+                </tr>
+            <tr>
+              <td class="text-right text-secondary"><b>On-time delivery (OTD)</b></td>
+              <td class=""><i class="ti-check pricing-check text-dark"></i></td>
+              <td class="bg-light "><i class="ti-check pricing-check"></i></td>
+              <td class="bg-secondary text-white" style="border: 0px !important"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <script>
+        function monthly() {
+          document.getElementById("1monthly").className = "visible_response";
+          document.getElementById("1yearly").className = "hidden_response";
+          document.getElementById("2monthly").className = "visible_response";
+          document.getElementById("2yearly").className = "hidden_response";
+        }
+        function yearly() {
+          document.getElementById("1monthly").className = "hidden_response";
+          document.getElementById("1yearly").className = "visible_response";
+          document.getElementById("2monthly").className = "hidden_response";
+          document.getElementById("2yearly").className = "visible_response";
+        }
+      </script>
+      
+      </footer>
+    </div>
+    <script type="text/javascript">
+      function log_Event(event) {
+        gtag('event', 'SignIn/SignUp redirect', {
+          'name': 'click',
+          'event_category': 'SignIn/SignUp event',
+          'event_label': 'App redirect SignIn/SignUp',
+        });
+        fbq('track', 'SignUp');
+      }
+    </script>
+    <script type="text/javascript">
+      function tryoutEvent(event) {
+        gtag('event', 'Free trial', {
+          'name': 'click',
+          'event_category': 'Free trial',
+          'event_label': 'Free trial cta'
+        });
+        fbq('track', 'SignUp');
+      }
+    </script>
+    <script async>
+      function appendString(obj) {
+        localStorage.setItem('german', true);
+        localStorage.removeItem('english');
+        var url = window.location.href;
+        var lan = "de/";
+        var n = url.indexOf("/new_website/");
+        var position = window.location.host.length + 9;
+        if (n > -1) position = 34;
+        var output = [url.slice(0, position), lan, url.slice(position)].join('');
+        obj.setAttribute('href', output);
+      }
+    </script>
+    <!-- Scripts -->
+    <script src="assets_website/js/page.min.js"></script>
+    <script src="assets_website/js/script.js"></script>
+  </body>
+  </html>
