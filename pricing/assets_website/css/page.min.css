@@ -3277,6 +3277,24 @@ input[type="button"].btn-block {
 	border-radius: .25rem
 }
 
+.btn.btn-primary.btn-regular {
+ background-color: rgb(0, 0, 0) !important;
+ background-blend-mode: normal !important;
+ box-shadow: none !important;
+ border-color: rgb(0, 0, 0) !important;
+}
+
+.btn.btn-danger.btn-regular {
+ border-color: rgb(56, 21, 21) !important ;
+ background-color: rgb(0, 0, 0) !important;
+ background-blend-mode: normal !important;
+ box-shadow: none !important;
+}
+
+.btn.btn-regular.btn-danger.d-lg-inline-block.mr-2.py-1.px-5.mx-4.my-0 {
+ border-color: rgb(0, 0, 0);
+}
+
 .dropdown-menu-right {
 	right: 0;
 	left: auto
