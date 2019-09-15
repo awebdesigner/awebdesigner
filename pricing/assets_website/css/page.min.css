@@ -9,7 +9,7 @@
 	--pink: #e83e8c;
 	--red: #ef4948;
 	--orange: #ff8600;
-	--yellow: #ffba00;
+	--BLACK: #ffba00;
 	--green: #3cd458;
 	--teal: #20c997;
 	--cyan: #17a2b8;
@@ -17,7 +17,7 @@
 	--gray: #868e96;
 	--gray-dark: #595959;
 	--primary: #00c6ff;
-	--secondary: #1a1a1a;
+	--secondary: #003240;
 	--success: #3cd458;
 	--info: #926dde;
 	--warning: #ffba00;
@@ -2525,8 +2525,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
 	color: #fff;
-	background-color: #347485;
-	border-color: #347485
+	background-color: black;
+	border-color: black
 }
 
 .btn-primary:hover {
@@ -2710,8 +2710,8 @@ fieldset:disabled a.btn {
 
 .btn-danger {
 	color: #fff;
-	background-color: #ed3635;
-	border-color: #ed3635
+	background-color: black;
+	border-color: black;
 }
 
 .btn-danger:hover {
@@ -3132,7 +3132,7 @@ fieldset:disabled a.btn {
 .btn-link-dark {
 	font-weight: 405;
 	font-size: 1.0rem;
-	color: #1a1a1a;
+	color: #003240;
 	background-color: transparent
 }
 .btn-link-dark:hover {
@@ -3142,7 +3142,7 @@ fieldset:disabled a.btn {
 	border-color: transparent
 }
 .btn-link-light:hover {
-	color: #1a1a1a;
+	color: #003240;
 
 	background-color: transparent;
 	border-color: transparent
@@ -6433,7 +6433,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-	background-color: #1a1a1a !important
+	background-color: #f8f9fa !important
 }
 
 a.bg-secondary:hover,
@@ -10830,7 +10830,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-	color: #fff !important
+	color: black !important
 }
 
 .text-primary {
@@ -10843,7 +10843,7 @@ a.text-primary:focus {
 }
 
 .text-secondary {
-	color: #1a1a1a !important
+	color: BLACK !important
 }
 
 a.text-secondary:hover,
@@ -19074,7 +19074,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-	color: #1a1a1a;
+	color: #003240;
 	letter-spacing: 0.5px
 }
 
@@ -25091,15 +25091,15 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
 .nav-navbar .nav .nav-item:hover>.nav-link,
 .nav-navbar .nav .nav-link.show,
 .nav-navbar .nav .nav-link:hover {
-	color: #1a1a1a
+	color: #003240
 }
 
 .nav-navbar .nav .nav-item.show>.nav-link .arrow,
 .nav-navbar .nav .nav-item:hover>.nav-link .arrow,
 .nav-navbar .nav .nav-link.show .arrow,
 .nav-navbar .nav .nav-link:hover .arrow {
-	border-top-color: #1a1a1a;
-	border-right-color: #1a1a1a
+	border-top-color: #003240;
+	border-right-color: #003240
 }
 
 .nav-navbar .nav .nav-item.active>.nav-link,
@@ -25187,7 +25187,7 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
 }
 
 .navbar-open .navbar .navbar-toggler:hover {
-	color: #1a1a1a
+	color: #003240
 }
 
 .navbar-open .navbar .navbar-divider {
@@ -25208,7 +25208,7 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
 .navbar-open .navbar .nav-navbar>.nav-item:hover>.nav-link,
 .navbar-open .navbar .nav-navbar>.nav-link.show,
 .navbar-open .navbar .nav-navbar>.nav-link:hover {
-	color: #1a1a1a
+	color: #003240
 }
 
 .navbar-open .navbar .nav-navbar>.nav-item.show>.nav-link>.arrow,
@@ -28129,7 +28129,7 @@ a.text-lightest:focus {
 }
 
 .dropdown-toggle .dropdown:hover {
-	color: #1a1a1a;
+	color: #003240;
 	text-decoration: underline !important;
 	display: block !important
 }
@@ -28178,7 +28178,7 @@ a.text-lightest:focus {
 }
 
 .text-white {
-	color: #fff !important
+	color: black !important
 }
 
 .mainRunner {
@@ -28226,13 +28226,13 @@ a.text-lightest:focus {
 
 .pricing-check {
 	font-size: 1.6rem;
-	color: #1a1a1a;
+	color: BLACK;
 	font-weight: 300 !important;
 	line-height: 0;
 }
 .pricing-check.thick{
 	font-size: 1.6rem;
-	color: #1a1a1a;
+	color: BLACK;
 	font-weight: 1000 !important;
 	line-height: 0;
 }
