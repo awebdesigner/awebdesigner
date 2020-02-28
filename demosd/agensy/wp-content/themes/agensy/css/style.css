@@ -155,7 +155,7 @@ button[type=submit]:hover i {
 /* CUSTOM CONTAINER */
 @media (min-width: 1240px) {
   .container {
-    max-width: 1200px;
+    max-width: 1900px;
   }
 }
 /* CUSTOM ELEMENTS */
