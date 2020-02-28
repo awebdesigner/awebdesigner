@@ -854,7 +854,8 @@ moe .color-dark .left-side ul li a:hover {
 .header .page-title h2 {
   font-weight: 700;
   font-size: 8vw;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  margin-top: 2%;
 }
 .header .page-title h4 {
   padding-right: 40%;
