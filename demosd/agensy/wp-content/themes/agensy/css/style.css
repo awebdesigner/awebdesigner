@@ -162,6 +162,9 @@ button[type=submit]:hover i {
 .color-dark {
   background-color: black;
 }
+.color-red {
+  background-color: #f81145;
+}
 .color-dark .left-side ul {
   width: 100vh;
   line-height: 1;
