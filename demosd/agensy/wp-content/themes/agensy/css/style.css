@@ -168,6 +168,12 @@ button[type=submit]:hover i {
 .color-red {
   background-color: #f81145;
 }
+
+.color-darkgray1 {
+  background-color: #2f3033;
+}
+
+
 .color-dark .left-side ul {
   width: 100vh;
   line-height: 1;
@@ -190,6 +196,23 @@ button[type=submit]:hover i {
   list-style: none;
 }
 .color-dark .left-side ul li a {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative;
+  padding: 0 2px;
+  color: #fff;
+}
+.color-darkgray1 .left-side ul li a {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative;
+  padding: 0 2px;
+  color: #fff;
+}
+
+.color-blue .left-side ul li a {
   display: block;
   font-size: 13px;
   font-weight: 600;
