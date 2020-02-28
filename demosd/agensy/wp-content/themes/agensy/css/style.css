@@ -162,6 +162,9 @@ button[type=submit]:hover i {
 .color-dark {
   background-color: black;
 }
+.color-blue {
+  background-color: #14151a;
+}
 .color-red {
   background-color: #f81145;
 }
