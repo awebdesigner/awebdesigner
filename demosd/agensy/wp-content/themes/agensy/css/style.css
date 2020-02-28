@@ -1490,7 +1490,7 @@ moe .color-dark .left-side ul li a:hover {
   flex-direction: column;
   position: relative;
   margin: 15px 0;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(222, 222, 222, 0.15);
 }
 .featured-services figure:hover {
   background: #fff;
