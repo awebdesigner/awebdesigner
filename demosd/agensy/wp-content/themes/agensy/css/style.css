@@ -583,7 +583,7 @@ moe .color-dark .left-side ul li a:hover {
 .navigation-menu .inner figure {
   display: block;
   margin: 0;
-  background: #fff;
+  background: #282828;
   padding: 6px;
   position: relative;
 }
@@ -1629,7 +1629,6 @@ moe .color-dark .left-side ul li a:hover {
 }
 .recent-news .content-box.selected {
   padding-bottom: 80px;
-  padding-top: 230px;
 }
 .recent-news .content-box.selected h3 {
   font-size: 6vw;
