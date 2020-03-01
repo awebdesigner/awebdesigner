@@ -1629,6 +1629,7 @@ moe .color-dark .left-side ul li a:hover {
 }
 .recent-news .content-box.selected {
   padding-bottom: 80px;
+  padding-top: 230px;
 }
 .recent-news .content-box.selected h3 {
   font-size: 6vw;
