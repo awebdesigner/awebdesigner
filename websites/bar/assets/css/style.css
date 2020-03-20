@@ -40,7 +40,7 @@ body {
 	font-weight: 300;
 	color: #333;
     font-size: 13px;
-    background: white;
+    background: url(img/bg.png) repeat;
 }
 
 a {
@@ -54,7 +54,7 @@ a {
 }
 
 #switcher {
-	height: 54px;
+	height: 50px;
 	padding:0;
 	background-image: url(img/pat-bg.png);
     background-color: #111;
@@ -162,7 +162,7 @@ a {
 
 .logo img { 
 	opacity: 1;
-	width: 90%;
+	width: 100%;
 }
 
 .logo img:hover {
