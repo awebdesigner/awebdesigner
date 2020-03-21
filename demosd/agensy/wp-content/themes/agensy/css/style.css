@@ -571,13 +571,13 @@ moe .color-dark .left-side ul li a:hover {
 .navigation-menu .inner .sides:last-child {
   padding-left: 50px;
 }
-.navigation-menu .inner h2 {
+.navigation-menu .inner h2{
     display: block;
     margin-bottom: 20px;
     line-height: 1;
-    font-size: 70px;
+    font-size: 100px;
     font-family: unset;
-    font-weight: 900;
+    font-weight: 600;
 }
 .navigation-menu .inner h2 strong {
   font-weight: 600;
