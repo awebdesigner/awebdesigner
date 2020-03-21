@@ -572,10 +572,12 @@ moe .color-dark .left-side ul li a:hover {
   padding-left: 50px;
 }
 .navigation-menu .inner h2 {
-  display: block;
-  margin-bottom: 20px;
-  line-height: 1.7;
-  font-size: 25px;
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1;
+    font-size: 70px;
+    font-family: unset;
+    font-weight: 900;
 }
 .navigation-menu .inner h2 strong {
   font-weight: 600;
@@ -901,7 +903,7 @@ moe .color-dark .left-side ul li a:hover {
 }
 .navbar.light .logo a img {
   -webkit-filter: brightness(0) invert(1);
-  filter: brightness(0) invert(1);
+  filter: brightness(1) invert(0);
 }
 .navbar.light .main-menu ul li a {
   color: #fff;
