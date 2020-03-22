@@ -1141,7 +1141,7 @@ iframe {
 
 .logotype {
   display: inline-block;
-  height: 28px;
+  height: 35px;
   max-height: 48px;
   transition: transform 0.4s cubic-bezier(0.72, 0.16, 0.345, 0.875);
 }
