@@ -1436,6 +1436,12 @@ moe .color-dark .left-side ul li a:hover {
   padding: 0 30px;
   list-style: none;
 }
+.works2 ul li {
+  width: 50%;
+  margin: 0px 0;
+  padding: 0 0px;
+  list-style: none;
+}
 
 /* PROJECT BOX */
 .project-box {
